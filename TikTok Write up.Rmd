@@ -1,0 +1,58 @@
+---
+title: "607_NCollin_HW11"
+author: "Noah Collin"
+date: "11/6/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+607
+Noah Collin
+
+
+## TikTok
+
+
+This document is best viewed as my Google Docs link to see all embedded citations and images:
+https://docs.google.com/document/d/1KjBQJbn-x2U2HTm8WGF9T563vWtPFMR4bENJg1fOZ28/edit?usp=sharing
+
+## Who are your target users?
+
+TikTok has over 1 billion monthly active users.  It’s not an understatement to say that *their target user is anyone with a smart device.*  With over 130 million monthly active users in the United States, their age breakdown is as follows: TikTok users by age: 10-19 – 32.5%, 20-29 – 29.5%, 30-39 – 16.4%, 40-49 – 13.9%, 50+ – 7.1%. This means that the TikTok userbase is aging up (so get on it now!). All data via Comscore. 
+
+## What are their key goals?
+
+Per TikTok’s about page, “Our mission is to inspire creativity and bring joy.”  Their revenue was $1.9 billion in 2020, up about 540% from 2019’s $350 million.  TikTok’s owner, ByteDance, saw a 111% increase in revenue in that same time period.  Lofty mission statements aside, TikTok is a business and it seeks to maximize profit.  It’s clear their strategy is to maximize engagement with users, who buy coins in the app to show appreciation for other’s videos.  It’s imperative that their recommendation algorithm suggest relevant content to users.  They do have a way to search for content, but generally the expectation is that users swipe through videos, and as they “heart” certain videos, the algorithm will suggest increasingly relevant videos.
+    It’s obvious from their design that they want a simple, fun app that keeps users engaged.  Ideally, they want users to spend a money in the app, but they can only expect that from a small percentage of users.  
+    The data they collect on users has obvious value.  The monetization of that data remains a nebulous subject, wrapped in the legalese of jargon in unread terms and agreement statements.  
+
+## How can you help them accomplish those goals?
+
+TikTok’s business model hinges on the efficacy of their recommendation system.  Their reputation for protecting user data and privacy is in constant question in the popular media.  Per the Washington Post, “TikTok doesn’t appear to take any more of your data than Facebook. That’s not a compliment.”  Perhaps the company can be more transparent about the workings of its recommendation algorithm to appease current users, prospective users, and regulators alike.  Much could be written about TikTok’s various public relations successes and failures. 
+     With that said, their recommendation algorithm is robust.  There are areas for improvement however.  In the onboarding process, you can select from various interests you may have.  However, perhaps they should implement a textbox to enter more obscure or niche interests.  
+TikTok has its emblematic “heart” icon to indicate you like a video.  Many users may be unaware of the existence of a “not interested” icon with a broken heart icon.  This secondary “not interested” icon is located within the “more” menu on a video, along with numerous other options.  To list the issues with this “not interested” button, its location is obscure, the “not interested” label may misrepresent its intent and/or functionality, and it dosen’t differentiate between being merely uninterested in something as opposed to outright disliking it.  
+Firstly, I imagine many users under-utilize the “not interested” icon because its location is less obvious.  So there is a UI issue present with this function.  But perhaps more importantly is the misnaming of these icons.  To my eye the heart icon actually doesn’t have a text label, it’s simply a heart icon, which, when pressed, pleasantly animates with red color.  This pleasant animation already gives the icon a reason to use it more frequently than its counterpart.  The “not interested” icon, with its broken heart icon, has a text label.   It’s unclear to the user that the filling of a red heart indicates mere “interest” as opposed to the broken heart’s “not interested.”   There’s perhaps a difference to an end user of “not interested” and “dislike.”  But given the iconography and labeling, I’d imagine that end users don’t use the functionality much.
+  A third issue with its “not interested” icon is what’s not said with a mere lack of interest.  I was surprised to see no “dislike” button.  Saying you're “not interested” in a provocative or controversial TikTok video is different than saying you dislike it.  But there’s no way to communicate to the algorithm that you strongly like or dislike anything. 
+  So the binarization of likes and dislikes of users is one potential shortcoming of TikTok’s recommender algorithm.  Confounding this issue is the presence of a beautiful heart icon and an unattractive broken heart icon labeled “not interested.”  Perhaps TikTok could clarify these labels and add degrees of liking or disliking content. Oddly, you can add a video to favorites, suggesting a higher degree of liking a video, but you can do no such filtering pertaining to disliking a video; you can only say you’re “not interested.”
+  Per TikTok’s own 2020 article “How TiokTok recommends videos #ForYou”, “One of the inherent challenges with recommendation engines is that they can inadvertently limit your experience – what is sometimes referred to as a "filter bubble." By optimizing for personalization and relevance, there is a risk of presenting an increasingly homogenous (sic) stream of videos. This is a concern we take seriously as we maintain our recommendation system.”  This is something I have seen in my own reverse engineering.  I made my account for this project specifically (I’m over the hill) and I anticipated finding this negative behavior.  I deliberately only liked videos with dogs, to see if it would pigeonhole me as a rabid dog lover.  Lo and behold, the algorithm has recommended a variety of other videos alongside dog videos, so I must commend their attention to this potential issue.
+  TikTok also welcomes socialization.  However, unlike Facebook, it’s unclear why you’d want to socialize on TikTok, and some users may prefer to remain quasi-anonymous.  They encourage you to connect with your contacts when you first join the app.  They mention in their recommendation article that this will help them curate videos.  It’s left unclear in this initial menue who, amongst your contacts, is welcoming of connecting via TikTok.  I think that users should be granted more privacy settings in this regard.  Any granularity for end users about connecting with others is predictably absent, and any explanation of how this would help with recommendations is characteristically unexplained.  As a prospective end user, I find it dubious that what my friends watch, perhaps aside from demographic information, could be useful in recommending what I like.  A transparent explanation of this functionality could help its algorithm improve, but TikTok remains vague in this regard.
+  The above TikTok article also pontificates, “Ultimately, your For You feed is powered by your feedback: the system is designed to continuously improve, correct, and learn from your own engagement with the platform to produce personalized recommendations that we hope inspire creativity and bring joy with every refresh of your For You feed.”  Their belabored reference to their mission statement in a dated article about their recommender system only highlights the company’s need to improve its transparency and garner trust with its users.  A final recommendation I could suggest would be to release at least a subset of the data that TikTok has to a user who’s interested in seeing it.
+
+
+
+Citations: 
+https://twitter.com/ttayl0r/status/1304261293130555397
+https://www.adweek.com/digital/tiktok-is-growing-up-and-so-are-its-users/
+https://www.tiktok.com/about?lang=en
+https://www.cnbc.com/2021/06/17/chinas-bytedance-tiktok-owner-saw-revenue-surge-111percent-in-2020.html
+https://www.gobankingrates.com/money/business/how-does-tiktok-make-money/
+https://www.washingtonpost.com/technology/2020/07/13/tiktok-privacy/
+https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you
+
+Again, please look at *my Google Doc* for embbeded links and related images:
+https://docs.google.com/document/d/1KjBQJbn-x2U2HTm8WGF9T563vWtPFMR4bENJg1fOZ28/edit?usp=sharing
+
